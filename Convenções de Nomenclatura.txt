@@ -1,0 +1,13 @@
+Java
+camelCase para variáveis, atributos e métodos;
+PascalCase para classes, enum e interfaces;
+SCREAMING_SNAKE_CASE para constantes.
+
+JavaScript
+camelCase para variáveis, constantes, funções e métodos;
+PascalCase para classes.
+
+Python
+snake_case para variáveis, funções e métodos;
+PascalCase para classes;
+SCREAMING_SNAKE_CASE para constantes.
