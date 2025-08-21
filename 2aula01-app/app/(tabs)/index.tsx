@@ -1,0 +1,35 @@
+import { Image } from 'expo-image';
+import { StyleSheet, View } from "react-native";
+
+const PlaceholderImage = require('@/assets/images/background-image.png');
+
+export default function Index() {
+  return (
+    <View style={styles.conteiner}>
+      <View style={styles.imageConteiner}>
+        <Image source={PlaceholderImage} style={styles.image} />
+      </View>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  conteiner: 
+  {
+    flex: 1,
+    backgroundColor: '#25292e',
+    alignItems: 'center',
+  },
+
+  imageConteiner:
+  {
+    flex: 1,
+  },
+
+  image: 
+  {
+    width: 320,
+    height: 440,
+    borderRadius: 18,
+  },
+});
